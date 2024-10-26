@@ -29,4 +29,4 @@ jobs:
 
       - name: Push Docker image
         run: |
-          docker push maryam8/scopeAgency:latest
+          docker push maryam8/scopeagency:latest

@@ -24,7 +24,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t maryam8/scopeAgency:latest .
+          docker build -t maryam8/scopeagency:dev:latest .
 
 
       - name: Push Docker image

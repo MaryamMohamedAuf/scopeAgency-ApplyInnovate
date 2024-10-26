@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <title>@ViewData["Title"]</title>
+    <style>
+        /* Your existing styles */
+    </style>
+</head>
+<body>
+    <div class="container text-center button-container">
+        <h1 class="display-4">Welcome to Our Application!</h1>
+        <p class="lead">We are excited to innovate and make a difference!</p>
+        <div class="mt-5">
+            <img src="assets/applyInnovate.jfif" />
+            <img src="assets/scopeAgency.png"/>
+            <br>
+            <p> <strong>
+                    scope agency with apply innovate
+             </strong></p>
+            <br>
+            <a href="@Url.Action("Index", "Units")" class="btn btn-primary">View Units</a>
+            <a href="@Url.Action("Index", "InvoiceDetails")" class="btn btn-success">View Invoices</a>
+            <br>
+        </div>
+    </div>
+
+    <!-- Include jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
